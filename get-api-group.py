@@ -29,7 +29,7 @@ def get_api_group(cluster_details):
         )
     
     ret =client_api.get_api_group()
-    print("get the api resources: {}".format(ret))
+    print("get the api group: {}".format(ret))
            
  
 
